@@ -1,0 +1,33 @@
+{
+  "name": "Rename Layers",
+  "description": "Transform the name of selected layers.",
+  "author": "Charlie Chao",
+  "homepage": "",
+  "version": "1.0",
+  "identifier": "com.charliechao.rename_layers",
+  "compatibleVersion": "42",
+  "bundleVersion": 1,
+  "commands" : [
+    {
+      "name" : "Convert to camelCase",
+      "identifier" : "camelcase",
+      "script" : "script.js",
+      "handler" : "camelCase",
+      "shortcut" : ""
+    },
+    {
+      "name" : "Convert to kebab-case",
+      "identifier" : "kebabcase",
+      "script" : "script.js",
+      "handler" : "kebabCase",
+      "shortcut" : ""
+    },
+  ],
+  "menu": {
+    "title": "Rename Layers",
+    "items": [
+      "camelcase",
+      "kebabcase"
+    ]
+  }
+}
